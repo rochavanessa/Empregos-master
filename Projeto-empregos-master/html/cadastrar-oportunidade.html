@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta name="description" content="Cadastrar nova oportunidade" />
+		<meta name="keywords" content="cadastro, rh, curriculo, oportunidades, vagas, emprego, ti, tecnologia, programador" />
+		<meta name="robots" content="index,follow" />
+		<link rel="icon" href="../img/career.ico" />
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="../css/style.css" />
+		<title>Nova oportunidade</title>
+	</head>
+	<body>
+		<header class="header">
+			<nav>
+				<a href="home-recrutador.html">Home</a>
+				<a href="lista-oportunidades-recrutador.html">Oportunidades</a>
+				<a href="#">Sair</a>
+			</nav>
+		</header>
+		<div>
+			<form class="form oparea" name="formoportunidade" action="../php/action.php" method="post">
+				<div class="title">Nova oportunidade</div>
+				<label>Nome:</label>
+				<div><input type="text" autofocus=""></div>
+				<label>Local:</label>
+				<div>
+					<select>
+						<option>Curitiba</option>
+						<option>Joinville</option>
+						<option>São Paulo</option>
+						<option>Outro</option>
+					</select>
+				</div>
+				<label>Descrição:</label>
+				<div><textarea></textarea></div>
+				<label>Atribuicões:</label>
+				<div><textarea></textarea></div>
+				<div><input type="submit" name="submit" value="Salvar"></div>
+			</form>
+		</div>
+		<footer>
+			<a href="mailto:vanessa.r16@aluno.ifsc.edu.br">Dúvidas e Sugestões</a>
+		</footer>
+	</body>
+</html>
